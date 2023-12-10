@@ -1,4 +1,4 @@
-# Unifi - FreeRadius - Google Secure LDAP 
+# FreeRadius - Google Secure LDAP 
 
 With all respects to major designer jongoldsz
 
@@ -55,4 +55,7 @@ You can use the container to create your new certificates as documented in the R
 Now you can restart the container and the new certificates will be used
 
 Have fun!
-Hacor
+
+---
+
+Special thanks to Hacor!
