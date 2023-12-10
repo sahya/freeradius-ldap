@@ -25,8 +25,8 @@ ldap {
 
 	#  Administrator account for searching and possibly modifying.
 	#  If using SASL + KRB5 these should be commented out.
-	identity = 'GOOGLE_LDAP_USERNAME'
-	password = GOOGLE_LDAP_PASSWORD
+	# identity = 'GOOGLE_LDAP_USERNAME'
+	# password = GOOGLE_LDAP_PASSWORD
 
 	#  Unless overridden in another section, the dn from which all
 	#  searches will start from.
@@ -69,6 +69,9 @@ ldap {
 	#  At a minimum you probably want to set KRB5_CLIENT_KTNAME.
 	#
 	sasl {
+		certificate_file = GOOGLE_LDAPTLS_CERT
+		private_key_file = GOOGLE_LDAPTLS_KEY
+
 		# SASL mechanism
 #		mech = 'PLAIN'
 
