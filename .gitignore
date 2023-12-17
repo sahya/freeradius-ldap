@@ -1,5 +1,6 @@
 .idea
 .DS_store
-certs
+certs/*
+!certs/.keep
 env/freeradius.env
 *~
